@@ -1,8 +1,8 @@
-function printResume() {
+//function printResume() {
     window.print();
 }
 
-function downloadPDF() {
+//function downloadPDF() {
     const element = document.querySelector('.container'); // Select the container element containing your resume content
     html2pdf()
         .from(element)
