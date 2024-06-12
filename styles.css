@@ -44,6 +44,17 @@ header p {
     margin: 0px 0px 0px 20px;
 }
 
+.download-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
 nav {
     background: #4caf50; /* Light green background */
     text-align: center;
@@ -130,8 +141,13 @@ p {
 
 
 .actions {
-    text-align: center;
-    margin-top: 30px;
+    text-align: center; /* Horizontally center the container */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.button-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center the buttons */
 }
 
 .actions button {
