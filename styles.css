@@ -1,0 +1,145 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0; /* Light green background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(to right, #4caf50, #388e3c);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.contact-info li {
+    margin: 0px 0px 0px 20px;
+}
+
+nav {
+    background: #4caf50; /* Light green background */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #000000; 
+}
+
+h3 {
+    color: #000000;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 8px;
+    overflow: hidden;
+    height: 15px; /* Initial height */
+}
+
+.progress {
+    height: 100%;
+    background-color: #046607; /* Green color for progress */
+    transition: width 0.6s ease; /* Add smooth transition effect */
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .progress-bar {
+        height: 10px; /* Decrease height for smaller screens */
+    }
+}
+
+
+.actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50; /* Green button */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
